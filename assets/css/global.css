@@ -78,6 +78,10 @@ ul li.realizada {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
+  body {
+    height: 90vw;
+  }
+  
   input {
     width: 70vw;
   }

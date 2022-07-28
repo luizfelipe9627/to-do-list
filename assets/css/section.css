@@ -21,7 +21,7 @@
   border-radius: 0.3125rem;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {  
   .container {
     width: 90vw;
   }

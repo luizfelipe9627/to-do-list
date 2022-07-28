@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #112D4E;
+  color: #F9F7F7;
+  font: 1.5rem Tahoma;
+  user-select: none;
+  display: flex;
+  height: 100vh;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+input {
+  border: 0.0625rem solid #F9F7F7;
+  color: #F9F7F7;
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
+  background-color: transparent;
+  outline: none;
+  height: 1.375rem;
+  width: 25vw;
+}
+
+button, select {
+  color: #F9F7F7;
+  border: 0.0625rem solid #F9F7F7;
+  border-radius: 0.125rem;
+  height: 1.375rem;
+  background-color: transparent;
+  outline: none;
+}
+
+select option {
+  color: #000;
+}
+
+
+button.remover {
+ margin-left: 0.9375rem;
+}
+
+button:hover, select:hover {
+  background-color: #F9F7F7;
+  color: #112D4E;
+  transition: 1s all ease;
+}
+
+input::placeholder {
+  color: #DBE2EF;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li.naoRealizada {
+  list-style-type: '☐';
+  margin-left: 1.25rem;
+  cursor: pointer;
+  text-indent: 0.625rem;
+}
+
+ul li.realizada {
+  list-style: '☑';
+  cursor: pointer;
+  text-indent: 0.625rem;
+  margin-left: 1.25rem;
+  text-decoration: line-through;
+  color: #C9C9C9;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  input {
+    width: 70vw;
+  }
+}

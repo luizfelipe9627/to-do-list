@@ -1,13 +1,13 @@
 # To do list
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
 
-<img src="https://github.com/luizfelipe9627/startse/blob/main/assets/video/to-do-list.gif" alt="Apresentação do To do list">
+<img src="https://github.com/luizfelipe9627/to-do-list/blob/main/assets/video/to-do-list.gif" alt="Apresentação do To do list">
 
 ## 📄 Descrição
 Uma to do list é uma lista de tarefas, de coisas que precisam ser feitas. O usuário conseguira armazenar suas tarefas, finalizar, deletar e ter acesso a vários outros jeitos para usar como desejar.
 
 ## 📑 Observação
-Este projeto foi criado junto com a Tech Academy da StartSe, com a intenção de praticar o conhecimento obtido nas aulas de Javascript e também praticar a manipulação do DOM.
+Este projeto foi criado junto com a Tech Academy da StartSe, com a intenção de praticar o conhecimento obtido nas aulas de Javascript e também praticar sobre manipulação do DOM.
 
 ### <a href="https://luizfelipe9627-to-do-list.netlify.app">Acesse o site</a>
 

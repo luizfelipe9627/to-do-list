@@ -45,7 +45,7 @@ select option {
 button.remover {
   margin-left: 0.9375rem;
   position: absolute;
-  margin-top: 0.5rem;
+  margin-top: 6px;
 }
 
 button:hover, select:hover {
@@ -90,5 +90,9 @@ ul li.realizada {
   
   input {
     width: 70vw;
+  }
+
+  button.remover {
+    margin-top: 4px;
   }
 }

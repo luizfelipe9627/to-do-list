@@ -43,7 +43,9 @@ select option {
 
 
 button.remover {
- margin-left: 0.9375rem;
+  margin-left: 0.9375rem;
+  position: absolute;
+  margin-top: 0.375rem;
 }
 
 button:hover, select:hover {
@@ -60,6 +62,10 @@ ul {
   padding: 0;
 }
 
+ul li:not(::marker) {
+  display: flex;
+  align-items: center;
+}
 
 ul li.naoRealizada {
   list-style-type: '▢';
